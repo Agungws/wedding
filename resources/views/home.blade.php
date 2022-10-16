@@ -37,6 +37,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
 
+    <!-- favicons
+    ================================================== -->
+    <script src="dist/clipboard.min.js"></script>
+
 </head>
 
 <body id="top" class="ss-preload theme-slides" onMouseover="PlayStop()" onclick="PlayStop()">
@@ -367,123 +371,32 @@
                             <!-- 04.1 - end send wishes -->
 
                             <!-- 04.2 - list wishes -->
-                            {{-- <div class="column lg-6 tab-12" style="overflow-y:scroll; height:500px; background:hsla(40, 100%, 97%, 1);">>
-                                <section id="timeline-wrapper">
-                                    <div class="container-fluid">
-                                        <div class="row">
-                                            <div class="timeline-top">
-                                                <div class="top-year">2022</span></div>
-                                            </div>
-                                            <div class="timeline-block">
-                                                <div class="timeline-events">
-                                                    <br>
-                                                    <div class="event l-event col-md-6 col-sm-6 col-xs-8 "><span
-                                                            class="thumb fa fa-codepen"></span>
-                                                        <div class=" event-body">
-                                                            <div class="person-image pull-left "><img
-                                                                    src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png"
-                                                                    alt="person" /></div>
-                                                            <div class="event-content">
-                                                                <h5 class="text-primary text-left">IT-PLUS programming
-                                                                    solution </h5>
-                                                                <span class="text-muted text-left"
-                                                                    style="display:block; margin: 0"><small>19 October
-                                                                        2016</small></span>
-                                                                <br><br>
-                                                                <blockquote class="text-muted text-left">Lorem ipsum
-                                                                    dolor sit amet
-                                                                    <br>
-                                                                    <cite class="text-muted text-right text-bold">-
-                                                                        Alex Martin</cite>
-                                                                </blockquote>
+                            <div class="column lg-6 tab-12"
+                                style="overflow-y:scroll; height:500px; background:hsla(40, 100%, 97%, 1);">
 
-                                                            </div>
-                                                        </div> <!-- end of event body -->
-                                                        <div class="clear-fix"></div>
-                                                    </div><!-- end of left event -->
-                                                    <div class="row"></div>
-                                                    <div class="event r-event col-md-6 col-sm-6 col-xs-8 "><span
-                                                            class="thumb fa fa-facebook"></span>
-                                                        <div class=" event-body">
-                                                            <div class="person-image pull-left "><img
-                                                                    src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png"
-                                                                    alt="person" /></div>
-                                                            <div class="event-content">
-                                                                <h5 class="text-primary text-left">IT-PLUS programming
-                                                                    solution </h5>
-                                                                <span class="text-muted text-left"
-                                                                    style="display:block; margin: 0"><small>19 October
-                                                                        2016</small></span>
-                                                                <br><br>
-                                                                <blockquote class="text-muted text-left">Lorem ipsum
-                                                                    dolor sit amet, consectetur adipisicing elit.
-                                                                    <br>
-                                                                    <cite class="text-muted text-right text-bold">-
-                                                                        Alex Martin</cite>
-                                                                </blockquote>
-
-                                                            </div>
-                                                        </div>
-                                                    </div><!-- end of right event <-->
-                                                    <div class="clearfix"></div>
-                                                    </-->
-                                                    <div class="row"></div>
-                                                    <div class="event l-event col-md-6 col-sm-6 col-xs-8 "><span
-                                                            class="thumb fa fa-twitter"></span>
-                                                        <div class=" event-body">
-                                                            <div class="person-image pull-left "><img
-                                                                    src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png"
-                                                                    alt="person" /></div>
-                                                            <div class="event-content">
-                                                                <h5 class="text-primary text-left">IT-PLUS programming
-                                                                    solution </h5>
-                                                                <span class="text-muted text-left"
-                                                                    style="display:block; margin: 0"><small>19 October
-                                                                        2016</small></span>
-                                                                <br><br>
-                                                                <blockquote class="text-muted text-left">Lorem ipsum
-                                                                    dolor sit amet, consectetur adipisicing elit.
-                                                                    <br>
-                                                                    <cite class="text-muted text-right text-bold">-
-                                                                        Alex Martin</cite>
-                                                                </blockquote>
-                                                            </div>
-                                                        </div>
-                                                    </div><!-- end of left event <-->
-                                                    <div class="clearfix"></div>
-
-                                                    <div class="row"></div>
-                                                    <div class="event r-event col-md-6 col-sm-6 col-xs-8 ">
-                                                        <span class="thumb fa fa-codepen"></span>
-                                                        <div class=" event-body">
-                                                            <div class="person-image pull-left "><img
-                                                                    src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png"
-                                                                    alt="person" /></div>
-                                                            <div class="event-content">
-                                                                <h5 class="text-primary text-left">IT-PLUS programming
-                                                                    solution </h5>
-                                                                <span class="text-muted text-left"
-                                                                    style="display:block; margin: 0"><small>19 October
-                                                                        2016</small></span>
-                                                                <br><br>
-                                                                <blockquote class="text-muted text-left">Lorem ipsum
-                                                                    dolor sit amet, consectetur adipisicing elit.
-                                                                    <br>
-                                                                    <cite class="text-muted text-right text-bold">-
-                                                                        Alex Martin</cite>
-                                                                </blockquote>
-                                                            </div>
-                                                        </div>
-                                                    </div><!-- end of right event <-->
-                                                    <div class="clearfix"></div>
-                                                    </-->
-                                                </div><!-- end of timeline events -->
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div>
+                                <div class="row tab-content__item-header" style="">
+                                    <div class="column">
+                                        <h2>Thank you for your wish</h2>
                                     </div>
-                                </section>
-                            </div> --}}
+                                </div>
+
+                                <div class="timeline ">
+                                    @foreach ($wish as $wishItem)
+                                        <ul>
+                                            <li>
+                                                <span>{{$item->created_at}}</span>
+                                                <div class="content">
+                                                    <h3>{{$item->name}}</h3>
+                                                    <p>
+                                                        {{$item->comment}}
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    @endforeach
+
+                                </div>
+                            </div>
                             <!-- 04.2 - end list wishes -->
                         </div>
 
@@ -526,10 +439,13 @@
                                             <h4>{{ $item->name }}</h4>
                                             <img src="{{ asset('assets/bank') }}/{{ $item->logo }}"
                                                 style="height:30px; widht:auto;">
-                                            <p class="desc">
+                                            <p class="desc" id="sample">
                                                 {{ $item->acc_number }}
                                                 <br>a/n {{ $item->acc_name }}
                                             </p>
+                                            {{-- <button class="btn" data-clipboard-target="#foo">
+                                                <img src="assets/clippy.svg" alt="Copy to clipboard">
+                                            </button> --}}
 
                                         </div>
                                     @endforeach
@@ -575,6 +491,7 @@
     ================================================== -->
     <script src="assets/undangan/js/plugins.js"></script>
     <script src="assets/undangan/js/main.js"></script>
+    <script src="assets/undangan/js/comment.js"></script>
     <Script>
         window.onscroll = function() {
             PlayStop();
@@ -657,6 +574,15 @@
                 ssCountdown();
 
             })();
+
+            CopyToClipboard(id) {
+                var r = document.createRange();
+                r.selectNode(document.getElementById(id));
+                window.getSelection().removeAllRanges();
+                window.getSelection().addRange(r);
+                document.execCommand('copy');
+                window.getSelection().removeAllRanges();
+            }
 
 
         })(document.documentElement);
