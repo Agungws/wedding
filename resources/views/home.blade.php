@@ -372,7 +372,7 @@
 
                             <!-- 04.2 - list wishes -->
                             <div class="column lg-6 tab-12"
-                                style="overflow-y:scroll; height:500px; background:hsla(40, 100%, 97%, 1);">
+                                style="background:hsla(40, 100%, 97%, 1);">
 
                                 <div class="row tab-content__item-header" style="">
                                     <div class="column">
@@ -380,19 +380,20 @@
                                     </div>
                                 </div>
 
-                                <div class="timeline ">
+                                <div class="timeline " style="overflow-y:scroll; height:420px; ">
                                     @foreach ($wish as $wishItem)
                                         <ul>
                                             <li>
-                                                <span>{{$item->created_at}}</span>
+                                                <span>{{ $wishItem->created_at }}</span>
                                                 <div class="content">
-                                                    <h3>{{$item->name}}</h3>
+                                                    <h3>{{ $wishItem->name }}</h3>
                                                     <p>
-                                                        {{$item->comment}}
+                                                        {{ $wishItem->comment }}
                                                     </p>
                                                 </div>
                                             </li>
                                         </ul>
+
                                     @endforeach
 
                                 </div>
